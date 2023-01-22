@@ -1,0 +1,30 @@
+:root {
+    font-family: 'Vazir', sans-serif !important;
+}
+
+body {
+    margin: 0;
+}
+
+.page {
+    background: linear-gradient(#000000, #1A171D);
+    height: 100vh;
+    width: 100vw;
+ }
+
+.container {
+    padding: 5rem;
+    grid-gap: 1rem;
+}
+
+.grid-element {
+    border-radius: 1rem;
+    background: #282c34;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 0.9rem;  
+    color: #00C9FF; 
+    text-align: center; 
+  }
